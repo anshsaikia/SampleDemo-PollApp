@@ -6,4 +6,4 @@ CMD service docker start
 
 RUN docker build -t my-django-app .
 RUN docker run --name some-django-app -d my-django-app
- 
+ENTRYPOINT [ “python”, “manage.py”, “runserver” ] 
