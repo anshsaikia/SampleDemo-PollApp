@@ -1,4 +1,4 @@
-****SampleDemo-Poll App****
+***SampleDemo-Poll App***
 
 This is a smaple app which is based on python Django framewrok and is built on top of AWS EC2 instance.
 
