@@ -1,7 +1,7 @@
-FROM django:onbuild
+FROM ubuntu:latest 
 
-RUN yum update -y
-RUN yum install -y docker
+RUN apt-get update
+RUN apt-get install -y docker
 RUN service docker start
 
 RUN docker build -t my-django-app .
