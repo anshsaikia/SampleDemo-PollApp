@@ -1,4 +1,4 @@
-FROM ubuntu:latest 
+FROM django:onbuild 
 
 RUN apt-get update
 RUN apt-get install -y docker
